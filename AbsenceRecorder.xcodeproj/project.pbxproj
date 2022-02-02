@@ -94,8 +94,9 @@
 		4C479DE427AAE1C200512143 /* AbsenceRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				4C479E1027AAE75200512143 /* View */,
+				4C479E0F27AAE74000512143 /* Model */,
 				4C479DE527AAE1C200512143 /* AbsenceRecorderApp.swift */,
-				4C479DE727AAE1C200512143 /* ContentView.swift */,
 				4C479DE927AAE1C400512143 /* Assets.xcassets */,
 				4C479DEB27AAE1C400512143 /* Preview Content */,
 			);
@@ -125,6 +126,21 @@
 				4C479E0227AAE1C400512143 /* AbsenceRecorderUITestsLaunchTests.swift */,
 			);
 			path = AbsenceRecorderUITests;
+			sourceTree = "<group>";
+		};
+		4C479E0F27AAE74000512143 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C479E1027AAE75200512143 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C479DE727AAE1C200512143 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

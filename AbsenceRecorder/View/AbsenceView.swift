@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct AbsenceView: View {
-    let division: Division
+    @EnvironmentObject var state : StateController
     
     var body: some View {
-        Text("Absence View - \(division.code)")
+        Text("Absence View")
     }
 }
 
 struct AbsenceView_Previews: PreviewProvider {
     static var previews: some View {
-        AbsenceView(division: Division.examples[0])
+        AbsenceView()
     }
 }
